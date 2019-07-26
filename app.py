@@ -11,7 +11,7 @@ client = commands.Bot(command_prefix='!')
 #client = discord.Client()
 
 #create an arraylist containing phrases you want your bot to switch through.
-status = cycle(['chocolate'])
+status = cycle(['with chocolate'])
 
 @client.command()
 async def lala(ctx):
