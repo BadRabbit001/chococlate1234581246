@@ -61,7 +61,7 @@ async def on_message(message):
         await message.author.send(msg)
 
     if message.content.startswith('!fortnite'):
-        randomlist = ['https://filemedia.net/27527/fortnite','https://up-to-down.net/27527/fortnite02','https://up-to-down.net/27527/fortnite02']
+        randomlist = ['Not in stock!','Not in stock!','Not in stock!']
         msg = 'Hello ' + author + '. Your link: '
         await message.author.send(msg + (random.choice(randomlist)))
         
@@ -99,7 +99,7 @@ async def on_message(message):
         await message.author.send(msg + (random.choice(randomlist)))
                 
     if message.content.startswith('!hulu'):
-        randomlist = ['https://filemedia.net/27527/hulu2','https://filemedia.net/27527/hulu','https://filemedia.net/27527/hulu2']
+        randomlist = ['https://direct-link.net/33298/hulu','https://link-to.net/33298/hulu0989','https://link-to.net/33298/989890']
         msg = 'Hello ' + author + '. Your link: '
         await message.author.send(msg + (random.choice(randomlist)))
         
